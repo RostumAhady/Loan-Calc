@@ -1,0 +1,58 @@
+.card{
+    margin-top: 20px;
+}
+
+.input{
+    margin: 0 auto;
+    margin-bottom: 5px;
+
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+h4{
+    margin-top: 10px;
+}
+
+.fas{
+    width: 10%;
+    font-size: 15px;
+    padding-top: 10px;
+    border: solid 0.5px #CED4DA;
+    background-color: #E9ECEE;
+}
+
+
+.form-control {
+    display: inline-block;
+    width: 85%;
+}
+
+#years{
+    width: 90%;
+}
+
+.input-group-addon{
+    padding: 5px;
+    border: solid 0.5px #CED4DA;
+    background-color: #E9ECEE;
+    width: 40%;
+}
+
+.formError {
+    background-color: none;
+    color: rgb(199, 6, 6);
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-group{
+    margin-bottom: 8px;
+}
+
+#loading, #results{
+    display: none;
+}

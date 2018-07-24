@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+
+  <body class="bg-dark">
+
+    <div class="container">
+			<div class="row">
+				<div class="col-md-6 mx-auto">
+					<div class="card card-body text-center mt-5">
+						<h1 class="heading">Loan Calculator</h1>
+						<form class="col-md-10 mx-auto" id="loan-form" >
+							<div class="form-group" >
+								<div class="input-group">
+									<i class="fas fa-money-bill"></i>
+									<input type="number" class="input form-control" id="amount" name="hello" placeholder=" Loan Amount">
+								</div>
+							</div>
+							<div class="form-group" id="form-1">
+								<div class="input-group">
+									<i class="fas fa-percent"></i>
+									<input type="number" class="input form-control" id="interest" name="hello" placeholder=" Interest">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<input type="number" class="input form-control" id="years" name="hello" placeholder=" Years To Repay">
+								</div>
+							</div>
+							<div class="form-group">
+									<input type="submit" value="Calculate" class="btn btn-black btn-block">
+							</div>
+						</form>
+                    <!-- Loading Gif -->
+        		<div id="loading">
+            	<img src="img/loading.gif" alt="">
+						</div>
+
+						<div class="col-md-10 mx-auto" id="results">
+							<h4>Results</h4>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon">Monthly Payment</span>
+									<input type="number" class="form-control" id="monthly-payment" name="hello" disabled>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon">Total Payment</span>
+									<input type="number" class="form-control" id="total-payment" name="hello" disabled>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon">Total Interest</span>
+									<input type="number" class="form-control" id="total-interest" name="hello" disabled>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>   
+    </div>
+
+    
+
+    <!-- nav tabs-->
+<!--     
+<div class="card text-center">
+    <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div> -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+		<script src="app.js"></script>
+	
+  </body>
+</html>

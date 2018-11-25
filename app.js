@@ -40,7 +40,7 @@ function calculateResults(){
 			document.getElementById('loading').style.display = 'none';
 
 	} else {
-		showError("You're a dumb ass");
+		showError("please check the input fields");
 	}
 
 }
